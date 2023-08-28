@@ -1,0 +1,60 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: rgb(230, 9, 9);
+    font-weight: bold;
+    width: 30%;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+ul#imagenees {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul#imagenees li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  ul#imagenees img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+/* Estilo para el botón de corazón */
+.like-tweet {
+    margin-left: 10px; /* Espacio entre el botón de eliminar y el corazón */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: rgb(156, 155, 155); /* Color blanco del corazón inicialmente */
+    font-size: 33px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Estilo para el corazón cuando se le da like */
+.like-tweet.liked {
+    color: red; /* Color rojo para el corazón cuando se le da like */
+}
+.contador-likes {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #888;
+}
